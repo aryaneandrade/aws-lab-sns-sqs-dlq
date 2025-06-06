@@ -72,8 +72,7 @@ Implementar uma arquitetura resiliente de mensageria para simular a comunicaçã
 
 ## 🖼️ Diagramas e Capturas de Tela
 
-> Adicione imagens na pasta `assets/` para ilustrar a arquitetura:
-
+> 
 - **Fluxo de Mensageria com SNS + SQS + DLQ**  
   ![Arquitetura](assets/arquitetura.png)
 
