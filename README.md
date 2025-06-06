@@ -77,11 +77,17 @@ Implementar uma arquitetura resiliente de mensageria para simular a comunicaçã
 - **Fluxo de Mensageria com SNS + SQS + DLQ**  
   ![Arquitetura](assets/arquitetura.png)
 
-- **Configuração da Fila Principal e DLQ**  
-  ![SQS Config](assets/sqs.png)
+- **Configuração SQS: Fila Principal e Dead Letter Queue Provisionadas**  
+  ![SQS Config](assets/filas.png)
 
-- **Política IAM aplicada**  
-  ![IAM Policy](assets/iam.png)
+- **Integração SNS-SQS: Assinatura da Fila Principal no Tópico Configurada**  
+  ![SNS](assets/topicosns.png)
+  
+- **Fluxo Normal: Processamento de Mensagem na Fila Principal**  
+  ![processo](assets/processo.png)
+
+- **Mensagem Transferida para DLQ após Falha**  
+  ![DLQ](assets/dlq.png)
 
 ---
 
