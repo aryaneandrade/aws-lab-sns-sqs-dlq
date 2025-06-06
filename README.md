@@ -7,7 +7,7 @@
 
 Este repositório documenta a construção de uma arquitetura de mensageria baseada em serviços nativos da AWS, com foco em comunicação assíncrona, desacoplamento de microsserviços e tratamento inteligente de falhas.
 
-O laboratório foi desenvolvido na **Escola da Nuvem**, sob orientação do professor **Danilo**, com abordagem prática de padrões cloud-native utilizando **Amazon SNS**, **Amazon SQS** e **Dead Letter Queue (DLQ)**.
+O laboratório foi desenvolvido com abordagem prática de padrões cloud-native utilizando **Amazon SNS**, **Amazon SQS** e **Dead Letter Queue (DLQ)**.
 
 ---
 
